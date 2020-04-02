@@ -18,7 +18,7 @@ $ yarn add sheet modal
 
 ### Exports
 
-The defaul export is `<SheetModal />` comonent. Also need the `useToggle()` hook to work.
+The default export is `<SheetModal />` component. Also need the `useToggle()` hook to work.
 
 ```js
 import SheetModal, { useToggle } from 'sheet-modal'
@@ -59,7 +59,7 @@ const [isShowing, toggle] = useToggle()
 
 ### `isShowing` state
 
-`isShowing ` is required as prop in `<SheetModal />` component and can be used to know the action sheet actual state.
+`isShowing ` is required as a prop in `<SheetModal />` component and can be used to know the action sheet actual state.
 
 ```js
 <SheetModal
@@ -85,12 +85,12 @@ The `toggle()` function is used to switch `isShowing` value to `true` or `false`
 
 |Property|Type|Default|Options|Description|
 |--------|----|-------|-------|-----------|
-|`position`|`String`|`'center'`|`center`, `top`, `bottom`, `left`, `right`|Defines de positioning on screen.|
-|`title`|`string`|`''`||String to display the action sheet title on header.|
+|`position`|`String`|`'center'`|`center`, `top`, `bottom`, `left`, `right`|Defines the positioning on the screen.|
+|`title`|`string`|`''`||String to display the action sheet title on the header.|
 |`body`|`ReactNode`|||React object to display on the body of the action sheet.|
-|`footer`|`ReactNode`|`<></>`||React object to display on footer of the action sheet.|
-|`isClosablle`|`bool`|`true`|`true`, `false`|Define if user can close the actions sheet with de defaulf close button or clicking out. Calling `toogle()` function is the only way to close the action sheet.|
-|`isShowing`|`bool`||`true`, `false`|Define the action sheet visibility. Only can be changed using `toggle()` function. |
+|`footer`|`ReactNode`|`<></>`||React object to display on the footer of the action sheet.|
+|`isClosablle`|`bool`|`true`|`true`, `false`|Define if the user can close the actions sheet with de default close button or clicking out. Calling `toggle()` function is the only way to close the action sheet.|
+|`isShowing`|`bool`||`true`, `false`|Define the action sheet visibility. Only can be changed using the `toggle()` function. |
 |`toggle`|`function`|||Required function to change the action sheet visibility.|
 
 ## :memo: License
