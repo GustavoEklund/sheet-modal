@@ -13,7 +13,7 @@ $ npm i sheet-modal --save
 or
 
 ```bash
-$ yarn add sheet modal
+$ yarn add sheet-modal
 ```
 
 ### Exports
